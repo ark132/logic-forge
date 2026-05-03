@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     else if(hour >= 17 && hour < 21) greeting = 'Good Evening';
     else greeting = 'Good Night';
     if(document.getElementById('greeting')) {
-        document.getElementById('greeting').textContent = greeting + ', Khan! 👋';
+        document.getElementById('greeting').textContent = greeting;
     }
 
     // Current day
