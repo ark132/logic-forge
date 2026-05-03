@@ -53,12 +53,16 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('currentDay').textContent = 'Today is Day ' + currentDay;
     }
     // Check if questions already done on page load
-const currentDay = parseInt(localStorage.getItem('currentDay')) || 1;
+const todayDay = parseInt(localStorage.getItem('currentDay')) || 1;
 const q1Done = localStorage.getItem(`day${currentDay}_q1`) === 'true';
 const q2Done = localStorage.getItem(`day${currentDay}_q2`) === 'true';
 
-if(q1Done) document.getElementById('q1-btn').classList.add('completed');
-if(q2Done) document.getElementById('q2-btn').classList.add('completed');
+if(document.getElementById('q1-btn')) {
+    if(q1Done) document.getElementById('q1-btn').classList.add('completed');
+}
+if(document.getElementById('q2-btn')) {
+    if(q2Done) document.getElementById('q2-btn').classList.add('completed');
+}
 
 // Mark as done function
 window.markDone = function(qNum) {
