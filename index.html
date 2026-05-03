@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"/> -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>&lt;/&gt;Logic Forge</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-code"></i>
+            <span>LogicForge</span>
+        </div>
+
+        <ul class="nav-links">
+            <li class="active" data-section="dashboard">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+              
+            </li>
+            <li data-section="alldays">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>All Days</span>
+                
+            </li>
+            <li data-section="settings">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </li>
+        </ul>
+    </nav>
+<main class="main-content">
+    <nav class="top-nav" >
+        <div class="days">
+        <a href="day.html#day1">Day 1</a>
+        <a href="day.html#day2">Day 2</a>
+        <a href="day.html#day3">Day 3</a>
+        <a href="day.html#day4">Day 4</a>
+        <a href="day.html#day5">Day 5</a>
+        </div>
+    </nav>
+    <div class="dashboard-grid">
+
+    <div class="card greeting-card">
+        <h2 id="greeting"></h2>
+        <p>Ready to sharpen your logic today?</p>
+        <h3 id="currentDay"></h3>
+        <p>You have 2 questions waiting.</p>
+        <button class="start-btn">
+            <span>Start Solving</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+     <!-- Todays Questions -->
+        
+     <div class="Question">
+    <h3>Today's Questions</h3>
+    
+    <div class="card question-card">
+        <span class="q-tag">Question 1</span>
+        <span class="lang-tag">C</span>
+        <h4>Sum of 2 Numbers</h4>
+        <p>Take 2 numbers as input from user and add them.</p>
+    </div>
+
+    <div class="card question-card">
+        <span class="q-tag">Question 2</span>
+        <span class="lang-tag">C</span>
+        <h4>Input</h4>
+        <p>Get input from user</p>
+    </div>
+
+</div>
+
+
+
+</div> 
+    
+
+    <div class="right-column">
+
+        <div class="card counter-card">
+            <h3>Progress Overview</h3>
+            <div class="progress-circle">
+                <span class="percent">0%</span>
+                <span class="label">Completed</span>
+            </div>
+            <div class="counter-item">
+                <span>🟢 Days Completed</span>
+                <span id="daysCompleted">0 / 30</span>
+            </div>
+            <div class="counter-item">
+                <span>🔵 Questions Solved</span>
+                <span id="questionsCompleted">0 / 60</span>
+            </div>
+            <div class="counter-item">
+                <span>🟡 Current Streak</span>
+                <span>0 days</span>
+            </div>
+            <div class="counter-item">
+                <span>🟣 Longest Streak</span>
+                <span>0 days</span>
+            </div>
+        </div>
+
+      <div class="card activity-card">
+    <h3>Recent Activity</h3>
+    <div id="activityList">
+    </div>
+</div>
+
+    </div>
+  </div>
+
+</main>
+   
+<!-- Settings Modal -->
+    <div class="modal-overlay" id="settingsModal">
+        <div class="modal">
+            <h3><i class="fa-solid fa-gear"></i> Settings</h3>
+            <p>Select your language</p>
+            <div class="lang-toggle">
+                <button class="lang-btn active" id="btnC">C</button>
+                <button class="lang-btn" id="btnPython">Python</button>
+            </div>
+            <button class="close-btn" id="closeModal">Done</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+:root {
+    --bg-main: #0d1117;
+    --bg-sidebar: #0f1117;
+    --bg-card: #161b22;
+    --border: #1e2530;
+    --green: #3fb950;
+    --text-primary: #e6edf3;
+    --text-muted: #8b949e;
+    --yellow: #d29922;
+    --purple: #bc8cff;
+    --blue: #58a6ff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color:var(--bg-main) !important;
+    color:var(--text-primary)!important;
+    min-height: 100vh;
+}
+
+/* ── SIDEBAR ── */
+.sidebar {
+    width: 210px;
+    height: 100vh;
+    background-color:var(--bg-sidebar);
+    border-right: 1px solid var(--border);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    gap: 40px;
+}
+
+/* ── LOGO ── */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 8px;
+}
+
+.logo i {
+    color:var(--green);
+    font-size: 20px;
+}
+
+.logo span {
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* ── NAV LINKS ── */
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.nav-links li:hover {
+    background-color:var(--bg-card);
+    color:var(--green);
+}
+
+.nav-links li.active {
+    background-color: transparent;
+    color: var(--text-muted);
+    border-left: none;
+}
+
+.nav-links li i {
+    font-size: 15px;
+    width: 18px;
+    text-align: center;
+}
+
+.nav-links li.active i {
+    color: var(--green);
+}
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--green);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.back-btn:hover {
+    background: var(--bg-card);
+    letter-spacing: 2px;
+}
+
+.back-btn i {
+    font-size: 12px;
+}
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-overlay.show {
+    display: flex;
+}
+
+.modal {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    z-index: 1000;
+}
+
+.modal h3 {
+    color: var(--text-primary);
+    font-size: 16px;
+}
+
+.modal p {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+.lang-toggle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.lang-btn {
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.lang-btn.active {
+    background: var(--green);
+    color: #000;
+    border-color: var(--green);
+}
+
+.close-btn {
+    background: var(--green);
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* ── MAIN CONTENT ── */
+    .main-content {
+    margin-left: 210px;
+    flex: 1;
+    padding: 0;
+    background-color: var(--bg-sidebar);
+}
+.top-nav {
+    padding: 12px 20px;
+    background: var(--bg-main);
+    border-bottom: 1px solid var(--border);
+}
+
+.days {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.days a {
+    background-color: var(--bg-card);
+    color: var(--text-muted);
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.days a:hover {
+    background-color: var(--green);
+    color: #000;
+}
+.dashboard-grid {
+    display: flex;
+    gap: 20px;
+    padding: 24px;
+}
+
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    color: var(--text-primary);
+}
+
+.greeting-card {
+    flex: 2;
+}
+#greeting {
+    margin-bottom: 8px;
+   
+    margin-bottom: 16px;
+
+}
+
+#currentDay {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.counter-card {
+    flex: 1;
+}
+
+.counter-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.counter-item span:last-child {
+    color: var(--green);
+    font-weight: 600;
+}
+.start-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--green);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.start-btn:hover {
+    background: var(--bg-card);
+    letter-spacing: 2px;
+}
+
+.start-btn i {
+    font-size: 12px;
+}
+.dashboard-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 24px;
+}
+
+.greeting-card {
+    flex: 2;
+}
+
+.counter-card {
+    flex: 1;
+}
+.counter-card h3 {
+    color: var(--text-primary);
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.progress-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 8px solid var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.progress-circle .percent {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.progress-circle .label {
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.counter-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.counter-item span:last-child {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+.Questions {
+    margin-top: 20px;
+}
+.question-card {
+    margin-top: 12px;
+    padding: 16px;
+}
+
+.q-tag, .lang-tag {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-right: 8px;
+    background: var(--bg-main);
+    color: var(--text-muted);
+}
+
+.lang-tag {
+    color: var(--green);
+}
+
+.question-card h4 {
+    margin-top: 10px;
+    color: var(--text-primary);
+}
+
+.question-card p {
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-top: 6px;
+}
+.days-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 24px;
+}
+.day-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.day-card.completed {
+    border-color: var(--green);
+}
+
+.day-card.locked {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.day-icon {
+    font-size: 28px;
+    min-width: 36px;
+}
+
+.day-info {
+    flex: 1;
+}
+
+.day-info h4 {
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.day-info p {
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+.day-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    color: var(--text-muted);
+    gap: 4px;
+    min-width: 80px;
+}
+
+.day-percent {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--yellow);
+    min-width: 50px;
+    text-align: right;
+}
+
+.day-card.completed .day-percent {
+    color: var(--green);
+}
+
+.day-card.inprogress {
+    border-color: var(--yellow);
+}

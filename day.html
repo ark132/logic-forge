@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"/> -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>&lt;/&gt;Logic Forge</title>
+</head>
+<body>
+    <nav class="sidebar">
+        
+        <div class="logo">
+            <i class="fa-solid fa-code"></i>
+            <span>LogicForge</span>
+        </div>
+
+        <ul class="nav-links" >
+            <li class="active" data-section="dashboard">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+              
+            </li>
+            <li data-section="alldays">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>All Days</span>
+                
+            </li>
+            <li data-section="settings">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </li>
+        </ul>
+      <li class="back-btn" onclick="window.location.href='index.html'">
+    <i class="fa-solid fa-arrow-left"></i>
+    <span>Back</span>
+</li>
+    </nav>
+<main class="main-content">
+<div class="overView">
+    <h2>30 Days Overview</h2>
+    <p>Track your progress across all 30 days</p>
+<div class="days-grid" id="daysGrid"></div>
+</div>
+</div>
+</main>   
+<!-- Settings Modal -->
+    <div class="modal-overlay" id="settingsModal">
+        <div class="modal">
+            <h3><i class="fa-solid fa-gear"></i> Settings</h3>
+            <p>Select your language</p>
+            <div class="lang-toggle">
+                <button class="lang-btn active" id="btnC">C</button>
+                <button class="lang-btn" id="btnPython">Python</button>
+            </div>
+            <button class="close-btn" id="closeModal">Done</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
