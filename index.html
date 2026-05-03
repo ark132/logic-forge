@@ -51,10 +51,7 @@
         <p>Ready to sharpen your logic today?</p>
         <h3 id="currentDay"></h3>
         <p>You have 2 questions waiting.</p>
-        <button class="start-btn">
-            <span>Start Solving</span>
-            <i class="fa-solid fa-arrow-right"></i>
-        </button>
+        
      <!-- Todays Questions -->
         
      <div class="Question">
@@ -65,6 +62,9 @@
         <span class="lang-tag">C</span>
         <h4>Sum of 2 Numbers</h4>
         <p>Take 2 numbers as input from user and add them.</p>
+         <button class="done-btn" id="q1-btn" onclick="markDone(1)">
+         <i class="fa-solid fa-check"></i> Mark as Done
+    </button>
     </div>
 
     <div class="card question-card">
@@ -72,6 +72,9 @@
         <span class="lang-tag">C</span>
         <h4>Input</h4>
         <p>Get input from user</p>
+        <button class="done-btn" id="q2-btn" onclick="markDone(2)">
+        <i class="fa-solid fa-check"></i> Mark as Done
+    </button>
     </div>
 
 </div>
