@@ -271,7 +271,29 @@ html, body {
 .counter-card {
     flex: 1;
 }
+.done-btn {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background: transparent;
+    color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
 
+.done-btn:hover {
+    background: var(--green);
+    color: #000;
+}
+
+.done-btn.completed {
+    background: var(--green);
+    color: #000;
+    cursor: default;
+}
 .counter-item {
     display: flex;
     justify-content: space-between;
