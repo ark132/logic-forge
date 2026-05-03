@@ -23,6 +23,15 @@ body {
     color:var(--text-primary)!important;
     min-height: 100vh;
 }
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  body {
+    display: block;
+  }
+}
 
 /* ── SIDEBAR ── */
 .sidebar {
@@ -461,17 +470,12 @@ body {
     border-color: var(--yellow);
 }
 @media (max-width: 768px) {
-
+    body {
+  display: block;
+}
   /* Sidebar becomes top bar */
   .sidebar {
     position: relative;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px;
-    gap: 10px;
   }
 
   /* Nav becomes horizontal scroll */
@@ -489,14 +493,13 @@ body {
 
   /* Remove desktop offset */
   .main-content {
-    margin-left: 0;
-    padding: 10px;
+    margin-left: 0 !important;
+    padding: 100%;
   }
 
   /* Dashboard stacks */
   .dashboard-grid {
-    flex-direction: column;
-    padding: 10px;
+    width:100%;
   }
 
   /* Days scroll instead of wrap */
