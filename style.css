@@ -469,6 +469,7 @@ html, body {
 .day-card.inprogress {
     border-color: var(--yellow);
 }
+/*Mobile*/
 @media (max-width: 768px) {
     body {
   display: block;
@@ -476,6 +477,9 @@ html, body {
   /* Sidebar becomes top bar */
   .sidebar {
     position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
   }
 
   /* Nav becomes horizontal scroll */
@@ -494,12 +498,15 @@ html, body {
   /* Remove desktop offset */
   .main-content {
     margin-left: 0 !important;
-    padding: 100%;
+    padding:12px;
+    width:100%;
   }
 
   /* Dashboard stacks */
   .dashboard-grid {
-    width:100%;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
   }
 
   /* Days scroll instead of wrap */
@@ -510,8 +517,9 @@ html, body {
 
   /* Days page grid becomes single column */
   .days-grid {
-    grid-template-columns: 1fr;
-    padding: 10px;
+   
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
   }
 
   /* Day cards stack internally */
@@ -520,10 +528,12 @@ html, body {
     align-items: flex-start;
   }
 }
+/*Tablet  */
 @media (min-width: 769px) and (max-width: 1024px) {
 
   .sidebar {
     width: 180px;
+      
   }
 
   .main-content {
