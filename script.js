@@ -52,7 +52,42 @@ document.addEventListener('DOMContentLoaded', () => {
         const currentDay = localStorage.getItem('currentDay') || 1;
         document.getElementById('currentDay').textContent = 'Today is Day ' + currentDay;
     }
+    // Check if questions already done on page load
+const currentDay = parseInt(localStorage.getItem('currentDay')) || 1;
+const q1Done = localStorage.getItem(`day${currentDay}_q1`) === 'true';
+const q2Done = localStorage.getItem(`day${currentDay}_q2`) === 'true';
 
+if(q1Done) document.getElementById('q1-btn').classList.add('completed');
+if(q2Done) document.getElementById('q2-btn').classList.add('completed');
+
+// Mark as done function
+window.markDone = function(qNum) {
+    const currentDay = parseInt(localStorage.getItem('currentDay')) || 1;
+    
+    localStorage.setItem(`day${currentDay}_q${qNum}`, 'true');
+    document.getElementById(`q${qNum}-btn`).classList.add('completed');
+    document.getElementById(`q${qNum}-btn`).textContent = '✅ Done!';
+
+    // Check if both done
+    const q1 = localStorage.getItem(`day${currentDay}_q1`) === 'true';
+    const q2 = localStorage.getItem(`day${currentDay}_q2`) === 'true';
+
+    if(q1 && q2) {
+        // Both done — move to next day!
+        const nextDay = currentDay + 1;
+        if(nextDay <= 30) {
+            localStorage.setItem('currentDay', nextDay);
+            
+            // Show congratulations
+            alert(`🎉 Day ${currentDay} Complete! Day ${nextDay} is now unlocked!`);
+            
+            // Refresh page to update everything
+            location.reload();
+        } else {
+            alert('🏆 Congratulations! You completed all 30 days!');
+        }
+    }
+}
     // Progress
     if(document.querySelector('.percent')) {
         const currentDay = parseInt(localStorage.getItem('currentDay')) || 1;
