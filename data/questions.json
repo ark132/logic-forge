@@ -1,1 +1,361 @@
+{
+  "day1": {
+    "topic": "Foundations with Constraints",
+    "c": [
+      {"title": "Swap two numbers without using third variable but ensure no overflow occurs", "difficulty": "Easy"},
+      {"title": "Calculate area of circle but reject zero or negative radius", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "Swap two numbers using tuple logic and verify values are different before swapping", "difficulty": "Easy"},
+      {"title": "Calculate volume of sphere but print 'Invalid' if radius is negative", "difficulty": "Easy"}
+    ]
+  },
 
+  "day2": {
+    "topic": "Math + Validation",
+    "c": [
+      {"title": "Find power a^b without using built-in functions and handle b=0 case", "difficulty": "Easy"},
+      {"title": "Calculate circumference but skip calculation if radius equals zero", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "Calculate average of marks but ignore negative inputs", "difficulty": "Easy"},
+      {"title": "Compute power using loop only and handle large exponent efficiently", "difficulty": "Easy"}
+    ]
+  },
+
+  "day3": {
+    "topic": "Decision Making",
+    "c": [
+      {"title": "Count even and odd digits in a number and compare them", "difficulty": "Easy"},
+      {"title": "Find largest of three numbers and handle case when all are equal", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "Print day of week for input 1-7 but validate invalid inputs", "difficulty": "Easy"},
+      {"title": "Find largest number and detect ties explicitly", "difficulty": "Easy"}
+    ]
+  },
+
+  "day4": {
+    "topic": "Conditional Logic",
+    "c": [
+      {"title": "Check if three sides form a valid triangle using triangle inequality", "difficulty": "Easy"},
+      {"title": "Perform addition if a>b else subtraction but print operation performed", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "Safely divide two numbers but avoid division by zero", "difficulty": "Easy"},
+      {"title": "Classify triangle (acute, right, obtuse) or invalid", "difficulty": "Easy"}
+    ]
+  },
+
+  "day5": {
+    "topic": "Loop Control",
+    "c": [
+      {"title": "Print numbers 1-50 skipping multiples of 3 and squaring multiples of 5", "difficulty": "Easy"},
+      {"title": "Print numbers divisible by 3 XOR 5 within range 1-100", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "Print odd numbers in reverse order between 30 and 50", "difficulty": "Easy"},
+      {"title": "Print numbers in range but exclude multiples of 4", "difficulty": "Easy"}
+    ]
+  },
+
+  "day6": {
+    "topic": "Digit Logic",
+    "c": [
+      {"title": "Reverse a number and check if it is palindrome in same logic", "difficulty": "Easy"},
+      {"title": "Find sum of digits ignoring zeros", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "Check Armstrong number for any digit length", "difficulty": "Easy"},
+      {"title": "Reverse number without converting to string", "difficulty": "Easy"}
+    ]
+  },
+
+  "day7": {
+    "topic": "Logic Foundations",
+    "c": [
+      {"title": "Compute digital root and print intermediate steps", "difficulty": "Medium"},
+      {"title": "Count numbers divisible by 3,5,7 but not all together", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Grade system with fail override if any subject below threshold", "difficulty": "Medium"},
+      {"title": "Compute factorial but stop if result exceeds limit", "difficulty": "Medium"}
+    ]
+  },
+
+  "day8": {
+    "topic": "Array Basics",
+    "c": [
+      {"title": "Find second largest element without sorting", "difficulty": "Medium"},
+      {"title": "Check if array is sorted or rotated sorted", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Move all zeros to end while maintaining order", "difficulty": "Medium"},
+      {"title": "Find first repeating element in list", "difficulty": "Medium"}
+    ]
+  },
+
+  "day9": {
+    "topic": "Array Manipulation",
+    "c": [
+      {"title": "Rotate array right by k positions without extra array", "difficulty": "Medium"},
+      {"title": "Find element appearing once when others appear twice", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Count pairs with given sum", "difficulty": "Medium"},
+      {"title": "Reverse array in groups of size k", "difficulty": "Medium"}
+    ]
+  },
+
+  "day10": {
+    "topic": "Strings",
+    "c": [
+      {"title": "Reverse each word in a string without changing word order", "difficulty": "Medium"},
+      {"title": "Remove duplicate characters without using extra arrays", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Check if two strings are anagrams without sorting", "difficulty": "Medium"},
+      {"title": "Implement run-length encoding", "difficulty": "Medium"}
+    ]
+  },
+
+  "day11": {
+    "topic": "String Logic",
+    "c": [
+      {"title": "Find first non-repeating character in string", "difficulty": "Medium"},
+      {"title": "Check palindrome ignoring spaces and case", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Implement Caesar cipher with shift", "difficulty": "Medium"},
+      {"title": "Count vowels and consonants ignoring symbols", "difficulty": "Medium"}
+    ]
+  },
+
+  "day12": {
+    "topic": "Frequency Logic",
+    "c": [
+      {"title": "Count frequency of digits without using extra libraries", "difficulty": "Medium"},
+      {"title": "Find missing number from 1 to N", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Find majority element appearing more than n/2 times", "difficulty": "Medium"},
+      {"title": "Find element with highest frequency", "difficulty": "Medium"}
+    ]
+  },
+
+  "day13": {
+    "topic": "Array Logic",
+    "c": [
+      {"title": "Find two numbers with given sum without sorting", "difficulty": "Medium"},
+      {"title": "Merge two sorted arrays into one sorted array", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Find intersection of two arrays", "difficulty": "Medium"},
+      {"title": "Remove duplicates from sorted array", "difficulty": "Medium"}
+    ]
+  },
+
+  "day14": {
+    "topic": "Subarray Logic",
+    "c": [
+      {"title": "Find maximum subarray sum", "difficulty": "Medium"},
+      {"title": "Find subarray with given sum", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Find longest increasing subarray", "difficulty": "Medium"},
+      {"title": "Find smallest subarray with sum greater than target", "difficulty": "Medium"}
+    ]
+  },
+
+  "day15": {
+    "topic": "Matrix",
+    "c": [
+      {"title": "Transpose matrix in place", "difficulty": "Medium"},
+      {"title": "Print spiral order of matrix", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Compute diagonal sums without duplication", "difficulty": "Medium"},
+      {"title": "Rotate matrix 90 degrees", "difficulty": "Medium"}
+    ]
+  },
+
+  "day16": {
+    "topic": "Stack Logic",
+    "c": [
+      {"title": "Check balanced parentheses", "difficulty": "Medium"},
+      {"title": "Track maximum nesting depth", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Find first invalid bracket position", "difficulty": "Medium"},
+      {"title": "Simulate stack using list", "difficulty": "Medium"}
+    ]
+  },
+
+  "day17": {
+    "topic": "Queue Logic",
+    "c": [
+      {"title": "Implement queue using array", "difficulty": "Medium"},
+      {"title": "Implement circular queue", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Simulate queue using list", "difficulty": "Medium"},
+      {"title": "Reverse first k elements of queue", "difficulty": "Medium"}
+    ]
+  },
+
+  "day18": {
+    "topic": "Bit Logic",
+    "c": [
+      {"title": "Convert decimal to binary without built-in functions", "difficulty": "Medium"},
+      {"title": "Count set bits using bit operations", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Check if number is power of 2 using bit logic", "difficulty": "Medium"},
+      {"title": "Find XOR of all elements", "difficulty": "Medium"}
+    ]
+  },
+
+  "day19": {
+    "topic": "Advanced Bit Logic",
+    "c": [
+      {"title": "Find unique element using XOR", "difficulty": "Medium"},
+      {"title": "Find two non-repeating numbers", "difficulty": "Hard"}
+    ],
+    "python": [
+      {"title": "Swap numbers without temp using XOR", "difficulty": "Medium"},
+      {"title": "Find missing number using XOR", "difficulty": "Medium"}
+    ]
+  },
+
+  "day20": {
+    "topic": "Cycle Logic",
+    "c": [
+      {"title": "Detect cycle using slow-fast pointer", "difficulty": "Hard"},
+      {"title": "Find duplicate number without extra space", "difficulty": "Hard"}
+    ],
+    "python": [
+      {"title": "Find missing and repeating number", "difficulty": "Hard"},
+      {"title": "Detect loop in sequence", "difficulty": "Hard"}
+    ]
+  },
+
+  "day21": {
+    "topic": "Real Systems",
+    "c": [
+      {"title": "ATM withdrawal logic with balance validation", "difficulty": "Medium"},
+      {"title": "Coin change using greedy approach", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Validate transaction sequence", "difficulty": "Medium"},
+      {"title": "Simulate wallet system", "difficulty": "Medium"}
+    ]
+  },
+
+  "day22": {
+    "topic": "Data Processing",
+    "c": [
+      {"title": "Find average and topper in class", "difficulty": "Medium"},
+      {"title": "Handle tie cases in ranking", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Sort students by marks manually", "difficulty": "Medium"},
+      {"title": "Assign grades with edge cases", "difficulty": "Medium"}
+    ]
+  },
+
+  "day23": {
+    "topic": "Authentication Logic",
+    "c": [
+      {"title": "Login system with 3 attempt lock", "difficulty": "Medium"},
+      {"title": "Password strength checker", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Track login attempts and block user", "difficulty": "Medium"},
+      {"title": "Validate username rules", "difficulty": "Medium"}
+    ]
+  },
+
+  "day24": {
+    "topic": "Billing System",
+    "c": [
+      {"title": "Calculate bill with discount and tax", "difficulty": "Medium"},
+      {"title": "Ignore invalid items in billing", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Compute cart total with conditions", "difficulty": "Medium"},
+      {"title": "Apply tiered discount rules", "difficulty": "Medium"}
+    ]
+  },
+
+  "day25": {
+    "topic": "2D Arrays",
+    "c": [
+      {"title": "Seat booking system with validation", "difficulty": "Medium"},
+      {"title": "Prevent double booking", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Count available seats in grid", "difficulty": "Medium"},
+      {"title": "Track occupancy percentage", "difficulty": "Medium"}
+    ]
+  },
+
+  "day26": {
+    "topic": "Frequency Analysis",
+    "c": [
+      {"title": "Find most frequent element", "difficulty": "Medium"},
+      {"title": "Handle tie frequency cases", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Find top 3 frequent words", "difficulty": "Medium"},
+      {"title": "Sort by frequency manually", "difficulty": "Medium"}
+    ]
+  },
+
+  "day27": {
+    "topic": "System Logic",
+    "c": [
+      {"title": "Bank system with deposit and withdraw", "difficulty": "Medium"},
+      {"title": "Prevent overdraft", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Track total balance across users", "difficulty": "Medium"},
+      {"title": "Maintain transaction history", "difficulty": "Medium"}
+    ]
+  },
+
+  "day28": {
+    "topic": "Task Management",
+    "c": [
+      {"title": "To-do list with add/remove operations", "difficulty": "Medium"},
+      {"title": "Mark tasks as completed", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "Sort tasks by priority", "difficulty": "Medium"},
+      {"title": "Filter completed tasks", "difficulty": "Medium"}
+    ]
+  },
+
+  "day29": {
+    "topic": "Allocation Logic",
+    "c": [
+      {"title": "Room allocation minimizing empty space", "difficulty": "Hard"},
+      {"title": "Fill partially occupied rooms first", "difficulty": "Hard"}
+    ],
+    "python": [
+      {"title": "Track room occupancy percentage", "difficulty": "Medium"},
+      {"title": "Reallocate rooms dynamically", "difficulty": "Hard"}
+    ]
+  },
+
+  "day30": {
+    "topic": "Boss Level",
+    "c": [
+      {"title": "Multi-user billing system with revenue tracking", "difficulty": "Hard"},
+      {"title": "Find most sold item efficiently", "difficulty": "Hard"}
+    ],
+    "python": [
+      {"title": "Generate final report with stats", "difficulty": "Hard"},
+      {"title": "Simulate full transaction system", "difficulty": "Hard"}
+    ]
+  }
+}
