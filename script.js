@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // Check if questions already done on page load
 const todayDay = parseInt(localStorage.getItem('currentDay')) || 1;
-const q1Done = localStorage.getItem(`day${currentDay}_q1`) === 'true';
-const q2Done = localStorage.getItem(`day${currentDay}_q2`) === 'true';
+const q1Done = localStorage.getItem(`day${todayDay}_q1`) === 'true';
+const q2Done = localStorage.getItem(`day${todayDay}_q2`) === 'true';
 
 if(document.getElementById('q1-btn')) {
     if(q1Done) document.getElementById('q1-btn').classList.add('completed');
