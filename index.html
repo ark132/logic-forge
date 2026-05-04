@@ -54,33 +54,29 @@
         
      <!-- Todays Questions -->
         
-     <div class="Question">
-    <h3>Today's Questions</h3>
-    
-    <div class="card question-card">
-        <span class="q-tag">Question 1</span>
-        <span class="lang-tag">C</span>
-        <h4>Sum of 2 Numbers</h4>
-        <p>Take 2 numbers as input from user and add them.</p>
-         <button class="done-btn" id="q1-btn" onclick="markDone(1)">
-         <i class="fa-solid fa-check"></i> Mark as Done
-    </button>
-    </div>
+<div class="card question-card">
+    <span class="q-tag">Question 1</span>
+    <span class="lang-tag" id="lang1">C</span>
 
-    <div class="card question-card">
-        <span class="q-tag">Question 2</span>
-        <span class="lang-tag">C</span>
-        <h4>Input</h4>
-        <p>Get input from user</p>
-        <button class="done-btn" id="q2-btn" onclick="markDone(2)">
+    <h4 id="q1-title"></h4>
+    <p id="q1-desc"></p>
+
+    <button class="done-btn" id="q1-btn" onclick="markDone(1)">
         <i class="fa-solid fa-check"></i> Mark as Done
     </button>
-    </div>
-
 </div>
 
+<div class="card question-card">
+    <span class="q-tag">Question 2</span>
+    <span class="lang-tag" id="lang2">C</span>
 
+    <h4 id="q2-title"></h4>
+    <p id="q2-desc"></p>
 
+    <button class="done-btn" id="q2-btn" onclick="markDone(2)">
+        <i class="fa-solid fa-check"></i> Mark as Done
+    </button>
+</div>
 </div> 
     
 
