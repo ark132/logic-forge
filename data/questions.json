@@ -1,361 +1,361 @@
 {
   "day1": {
-    "topic": "Foundations with Constraints",
+    "topic": "Basic Programs - Area",
     "c": [
-      {"title": "Swap two numbers without using third variable but ensure no overflow occurs", "difficulty": "Easy"},
-      {"title": "Calculate area of circle but reject zero or negative radius", "difficulty": "Easy"}
+      {"title": "WAP to find Area of Rectangle", "difficulty": "Easy"},
+      {"title": "WAP to find Area of Triangle", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Swap two numbers using tuple logic and verify values are different before swapping", "difficulty": "Easy"},
-      {"title": "Calculate volume of sphere but print 'Invalid' if radius is negative", "difficulty": "Easy"}
+      {"title": "WAP to find Area of Rectangle", "difficulty": "Easy"},
+      {"title": "WAP to find Area of Triangle", "difficulty": "Easy"}
     ]
   },
 
   "day2": {
-    "topic": "Math + Validation",
+    "topic": "Basic Programs - Geometry",
     "c": [
-      {"title": "Find power a^b without using built-in functions and handle b=0 case", "difficulty": "Easy"},
-      {"title": "Calculate circumference but skip calculation if radius equals zero", "difficulty": "Easy"}
+      {"title": "WAP to find Area and Perimeter of Square", "difficulty": "Easy"},
+      {"title": "WAP to find Area and Volume of a Sphere", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Calculate average of marks but ignore negative inputs", "difficulty": "Easy"},
-      {"title": "Compute power using loop only and handle large exponent efficiently", "difficulty": "Easy"}
+      {"title": "WAP to find Area and Perimeter of Square", "difficulty": "Easy"},
+      {"title": "WAP to find Area and Volume of a Sphere", "difficulty": "Easy"}
     ]
   },
 
   "day3": {
-    "topic": "Decision Making",
+    "topic": "Basic Programs - Conversion & Circle",
     "c": [
-      {"title": "Count even and odd digits in a number and compare them", "difficulty": "Easy"},
-      {"title": "Find largest of three numbers and handle case when all are equal", "difficulty": "Easy"}
+      {"title": "WAP to convert temperature from Fahrenheit to Celsius", "difficulty": "Easy"},
+      {"title": "WAP to find Diameter, Circumference and Area of Circle", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Print day of week for input 1-7 but validate invalid inputs", "difficulty": "Easy"},
-      {"title": "Find largest number and detect ties explicitly", "difficulty": "Easy"}
+      {"title": "WAP to convert temperature from Fahrenheit to Celsius", "difficulty": "Easy"},
+      {"title": "WAP to find Diameter, Circumference and Area of Circle", "difficulty": "Easy"}
     ]
   },
 
   "day4": {
-    "topic": "Conditional Logic",
+    "topic": "Basic Programs - Arithmetic",
     "c": [
-      {"title": "Check if three sides form a valid triangle using triangle inequality", "difficulty": "Easy"},
-      {"title": "Perform addition if a>b else subtraction but print operation performed", "difficulty": "Easy"}
+      {"title": "WAP to find sum and average of 3 subject marks", "difficulty": "Easy"},
+      {"title": "WAP to swap 2 numbers", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Safely divide two numbers but avoid division by zero", "difficulty": "Easy"},
-      {"title": "Classify triangle (acute, right, obtuse) or invalid", "difficulty": "Easy"}
+      {"title": "WAP to find sum and average of 3 subject marks", "difficulty": "Easy"},
+      {"title": "WAP to swap 2 numbers", "difficulty": "Easy"}
     ]
   },
 
   "day5": {
-    "topic": "Loop Control",
+    "topic": "Basic Programs - Power & Triangle",
     "c": [
-      {"title": "Print numbers 1-50 skipping multiples of 3 and squaring multiples of 5", "difficulty": "Easy"},
-      {"title": "Print numbers divisible by 3 XOR 5 within range 1-100", "difficulty": "Easy"}
+      {"title": "WAP to find area of Equilateral triangle", "difficulty": "Easy"},
+      {"title": "WAP to find result of first value raised to (power) second value", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Print odd numbers in reverse order between 30 and 50", "difficulty": "Easy"},
-      {"title": "Print numbers in range but exclude multiples of 4", "difficulty": "Easy"}
+      {"title": "WAP to find area of Equilateral triangle", "difficulty": "Easy"},
+      {"title": "WAP to find result of first value raised to (power) second value", "difficulty": "Easy"}
     ]
   },
 
   "day6": {
-    "topic": "Digit Logic",
+    "topic": "Decision Making - Even/Odd",
     "c": [
-      {"title": "Reverse a number and check if it is palindrome in same logic", "difficulty": "Easy"},
-      {"title": "Find sum of digits ignoring zeros", "difficulty": "Easy"}
+      {"title": "WAP to input a number and check if it is even or odd using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input a number and check if it is even or odd using if...else", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Check Armstrong number for any digit length", "difficulty": "Easy"},
-      {"title": "Reverse number without converting to string", "difficulty": "Easy"}
+      {"title": "WAP to input a number and check if it is even or odd using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input a number and check if it is even or odd using if...else", "difficulty": "Easy"}
     ]
   },
 
   "day7": {
-    "topic": "Logic Foundations",
+    "topic": "Decision Making - Largest Number",
     "c": [
-      {"title": "Compute digital root and print intermediate steps", "difficulty": "Medium"},
-      {"title": "Count numbers divisible by 3,5,7 but not all together", "difficulty": "Medium"}
+      {"title": "WAP to input 2 numbers and find the largest using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers and find the largest using if...else", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Grade system with fail override if any subject below threshold", "difficulty": "Medium"},
-      {"title": "Compute factorial but stop if result exceeds limit", "difficulty": "Medium"}
+      {"title": "WAP to input 2 numbers and find the largest using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers and find the largest using if...else", "difficulty": "Easy"}
     ]
   },
 
   "day8": {
-    "topic": "Array Basics",
+    "topic": "Decision Making - elif & Nested If",
     "c": [
-      {"title": "Find second largest element without sorting", "difficulty": "Medium"},
-      {"title": "Check if array is sorted or rotated sorted", "difficulty": "Medium"}
+      {"title": "WAP to enter a number between 1 to 7 and print corresponding day of week using else-if ladder", "difficulty": "Easy"},
+      {"title": "WAP to input 3 numbers and find the largest using Nested If", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Move all zeros to end while maintaining order", "difficulty": "Medium"},
-      {"title": "Find first repeating element in list", "difficulty": "Medium"}
+      {"title": "WAP to enter a number between 1 to 7 and print corresponding day of week using elif", "difficulty": "Easy"},
+      {"title": "WAP to input 3 numbers and find the largest using Nested If", "difficulty": "Easy"}
     ]
   },
 
   "day9": {
-    "topic": "Array Manipulation",
+    "topic": "Decision Making - Advanced",
     "c": [
-      {"title": "Rotate array right by k positions without extra array", "difficulty": "Medium"},
-      {"title": "Find element appearing once when others appear twice", "difficulty": "Medium"}
+      {"title": "WAP to input 3 numbers and find the largest using else-if", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers. Perform addition if first number > second, otherwise perform subtraction", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Count pairs with given sum", "difficulty": "Medium"},
-      {"title": "Reverse array in groups of size k", "difficulty": "Medium"}
+      {"title": "WAP to input 3 numbers and find the largest using elif", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers. Perform addition if first number > second, otherwise perform subtraction", "difficulty": "Easy"}
     ]
   },
 
   "day10": {
-    "topic": "Strings",
+    "topic": "Decision Making - Ratio & Triangle",
     "c": [
-      {"title": "Reverse each word in a string without changing word order", "difficulty": "Medium"},
-      {"title": "Remove duplicate characters without using extra arrays", "difficulty": "Medium"}
+      {"title": "WAP to input values of a,b,c,d. Find the ratio of (a+b) to (c-d) if and only if (c-d) not equal to zero", "difficulty": "Easy"},
+      {"title": "Input 3 sides of a triangle. Check if triangle is formed or not. If yes, check if it is acute, right or obtuse angled triangle", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Check if two strings are anagrams without sorting", "difficulty": "Medium"},
-      {"title": "Implement run-length encoding", "difficulty": "Medium"}
+      {"title": "WAP to input values of a,b,c,d. Find the ratio of (a+b) to (c-d) if and only if (c-d) not equal to zero", "difficulty": "Easy"},
+      {"title": "Input 3 sides of a triangle. Check if triangle is formed or not. If yes, check if it is acute, right or obtuse angled triangle", "difficulty": "Medium"}
     ]
   },
 
   "day11": {
-    "topic": "String Logic",
+    "topic": "Looping - While Loop Basics",
     "c": [
-      {"title": "Find first non-repeating character in string", "difficulty": "Medium"},
-      {"title": "Check palindrome ignoring spaces and case", "difficulty": "Medium"}
+      {"title": "WAP to print numbers from 10 to 1 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print even numbers between 1 to 20 using while loop", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Implement Caesar cipher with shift", "difficulty": "Medium"},
-      {"title": "Count vowels and consonants ignoring symbols", "difficulty": "Medium"}
+      {"title": "WAP to print numbers from 10 to 1 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print even numbers between 1 to 20 using while loop", "difficulty": "Easy"}
     ]
   },
 
   "day12": {
-    "topic": "Frequency Logic",
+    "topic": "Looping - While Loop Patterns",
     "c": [
-      {"title": "Count frequency of digits without using extra libraries", "difficulty": "Medium"},
-      {"title": "Find missing number from 1 to N", "difficulty": "Medium"}
+      {"title": "WAP to print odd numbers between 30 to 50 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print numbers between 1 to 100 divisible by 3 and 5 using while loop", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Find majority element appearing more than n/2 times", "difficulty": "Medium"},
-      {"title": "Find element with highest frequency", "difficulty": "Medium"}
+      {"title": "WAP to print odd numbers between 30 to 50 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print numbers between 1 to 100 divisible by 3 and 5 using while loop", "difficulty": "Easy"}
     ]
   },
 
   "day13": {
-    "topic": "Array Logic",
+    "topic": "Looping - While Loop Range & Digits",
     "c": [
-      {"title": "Find two numbers with given sum without sorting", "difficulty": "Medium"},
-      {"title": "Merge two sorted arrays into one sorted array", "difficulty": "Medium"}
+      {"title": "WAP to print numbers between a given range using while loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find sum of its digits using while loop", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Find intersection of two arrays", "difficulty": "Medium"},
-      {"title": "Remove duplicates from sorted array", "difficulty": "Medium"}
+      {"title": "WAP to print numbers between a given range using while loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find sum of its digits using while loop", "difficulty": "Easy"}
     ]
   },
 
   "day14": {
-    "topic": "Subarray Logic",
+    "topic": "Looping - Reverse & Palindrome",
     "c": [
-      {"title": "Find maximum subarray sum", "difficulty": "Medium"},
-      {"title": "Find subarray with given sum", "difficulty": "Medium"}
+      {"title": "WAP to input a number and find its reverse using while loop", "difficulty": "Easy"},
+      {"title": "WAP to check whether the entered number is palindrome or not", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Find longest increasing subarray", "difficulty": "Medium"},
-      {"title": "Find smallest subarray with sum greater than target", "difficulty": "Medium"}
+      {"title": "WAP to input a number and find its reverse using while loop", "difficulty": "Easy"},
+      {"title": "WAP to check whether the entered number is palindrome or not", "difficulty": "Easy"}
     ]
   },
 
   "day15": {
-    "topic": "Matrix",
+    "topic": "Looping - Armstrong & Prime",
     "c": [
-      {"title": "Transpose matrix in place", "difficulty": "Medium"},
-      {"title": "Print spiral order of matrix", "difficulty": "Medium"}
+      {"title": "WAP to check whether the entered number is Armstrong or not", "difficulty": "Easy"},
+      {"title": "WAP to check whether an entered number is prime number or not", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Compute diagonal sums without duplication", "difficulty": "Medium"},
-      {"title": "Rotate matrix 90 degrees", "difficulty": "Medium"}
+      {"title": "WAP to check whether the entered number is Armstrong or not", "difficulty": "Easy"},
+      {"title": "WAP to check whether an entered number is prime number or not", "difficulty": "Easy"}
     ]
   },
 
   "day16": {
-    "topic": "Stack Logic",
+    "topic": "For Loop - Basics",
     "c": [
-      {"title": "Check balanced parentheses", "difficulty": "Medium"},
-      {"title": "Track maximum nesting depth", "difficulty": "Medium"}
+      {"title": "WAP to print all Armstrong numbers between 100 to 1000 using for loop", "difficulty": "Medium"},
+      {"title": "WAP to print numbers from 10 to 1 using for loop", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Find first invalid bracket position", "difficulty": "Medium"},
-      {"title": "Simulate stack using list", "difficulty": "Medium"}
+      {"title": "WAP to print all Armstrong numbers between 100 to 1000 using for loop", "difficulty": "Medium"},
+      {"title": "WAP to print numbers from 10 to 1 using for loop", "difficulty": "Easy"}
     ]
   },
 
   "day17": {
-    "topic": "Queue Logic",
+    "topic": "For Loop - Even, Odd & Divisible",
     "c": [
-      {"title": "Implement queue using array", "difficulty": "Medium"},
-      {"title": "Implement circular queue", "difficulty": "Medium"}
+      {"title": "WAP to print even numbers between 20 to 40 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to print odd numbers between 50 to 70 using for loop", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Simulate queue using list", "difficulty": "Medium"},
-      {"title": "Reverse first k elements of queue", "difficulty": "Medium"}
+      {"title": "WAP to print even numbers between 20 to 40 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to print odd numbers between 50 to 70 using for loop", "difficulty": "Easy"}
     ]
   },
 
   "day18": {
-    "topic": "Bit Logic",
+    "topic": "For Loop - Divisibility & Factorial",
     "c": [
-      {"title": "Convert decimal to binary without built-in functions", "difficulty": "Medium"},
-      {"title": "Count set bits using bit operations", "difficulty": "Medium"}
+      {"title": "WAP to print numbers between 1 to 500 divisible by 3, 5 and 7 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to find factorial of a number using for loop", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Check if number is power of 2 using bit logic", "difficulty": "Medium"},
-      {"title": "Find XOR of all elements", "difficulty": "Medium"}
+      {"title": "WAP to print numbers between 1 to 500 divisible by 3, 5 and 7 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to find factorial of a number using for loop", "difficulty": "Easy"}
     ]
   },
 
   "day19": {
-    "topic": "Advanced Bit Logic",
+    "topic": "For Loop - Factors",
     "c": [
-      {"title": "Find unique element using XOR", "difficulty": "Medium"},
-      {"title": "Find two non-repeating numbers", "difficulty": "Hard"}
+      {"title": "WAP to input a number and find its factors using for loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find its factors and also count them using for loop", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Swap numbers without temp using XOR", "difficulty": "Medium"},
-      {"title": "Find missing number using XOR", "difficulty": "Medium"}
+      {"title": "WAP to input a number and find its factors using for loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find its factors and also count them using for loop", "difficulty": "Easy"}
     ]
   },
 
   "day20": {
-    "topic": "Cycle Logic",
+    "topic": "Nested Loops - Patterns",
     "c": [
-      {"title": "Detect cycle using slow-fast pointer", "difficulty": "Hard"},
-      {"title": "Find duplicate number without extra space", "difficulty": "Hard"}
+      {"title": "WAP to display star pattern: 1 row has 1 star, each next row adds one more star (6 rows)", "difficulty": "Medium"},
+      {"title": "WAP to display number pattern: 1 / 1 2 / 1 2 3 / 1 2 3 4", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Find missing and repeating number", "difficulty": "Hard"},
-      {"title": "Detect loop in sequence", "difficulty": "Hard"}
+      {"title": "WAP to display star pattern: 1 row has 1 star, each next row adds one more star (6 rows)", "difficulty": "Medium"},
+      {"title": "WAP to display number pattern: 1 / 1 2 / 1 2 3 / 1 2 3 4", "difficulty": "Medium"}
     ]
   },
 
   "day21": {
-    "topic": "Real Systems",
+    "topic": "Nested Loops - Advanced Patterns",
     "c": [
-      {"title": "ATM withdrawal logic with balance validation", "difficulty": "Medium"},
-      {"title": "Coin change using greedy approach", "difficulty": "Medium"}
+      {"title": "WAP to display repeated digit pattern: 1 / 2 2 / 3 3 3 / 4 4 4 4 / 5 5 5 5 5", "difficulty": "Medium"},
+      {"title": "WAP to display sequential number pattern: 1 / 2 3 / 4 5 6 / 7 8 9 10 / ...", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Validate transaction sequence", "difficulty": "Medium"},
-      {"title": "Simulate wallet system", "difficulty": "Medium"}
+      {"title": "WAP to display repeated digit pattern: 1 / 2 2 / 3 3 3 / 4 4 4 4 / 5 5 5 5 5", "difficulty": "Medium"},
+      {"title": "WAP to display sequential number pattern: 1 / 2 3 / 4 5 6 / 7 8 9 10 / ...", "difficulty": "Medium"}
     ]
   },
 
   "day22": {
-    "topic": "Data Processing",
+    "topic": "Functions - No Argument No Return",
     "c": [
-      {"title": "Find average and topper in class", "difficulty": "Medium"},
-      {"title": "Handle tie cases in ranking", "difficulty": "Medium"}
+      {"title": "WAP to Find area of rectangle using function with no argument, no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find area of Triangle using function with no argument but return value", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Sort students by marks manually", "difficulty": "Medium"},
-      {"title": "Assign grades with edge cases", "difficulty": "Medium"}
+      {"title": "WAP to Find area of rectangle by no argument, no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find area of Triangle by no argument but return value", "difficulty": "Easy"}
     ]
   },
 
   "day23": {
-    "topic": "Authentication Logic",
+    "topic": "Functions - With Arguments",
     "c": [
-      {"title": "Login system with 3 attempt lock", "difficulty": "Medium"},
-      {"title": "Password strength checker", "difficulty": "Medium"}
+      {"title": "WAP to Find area and volume of sphere using function with no argument but return value", "difficulty": "Easy"},
+      {"title": "WAP to Find Largest of 2 numbers using function with no argument but return value", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Track login attempts and block user", "difficulty": "Medium"},
-      {"title": "Validate username rules", "difficulty": "Medium"}
+      {"title": "WAP to Find area and volume of sphere by no argument but return value", "difficulty": "Easy"},
+      {"title": "WAP to Find Largest of 2 numbers by no argument but return value", "difficulty": "Easy"}
     ]
   },
 
   "day24": {
-    "topic": "Billing System",
+    "topic": "Functions - Has Arguments",
     "c": [
-      {"title": "Calculate bill with discount and tax", "difficulty": "Medium"},
-      {"title": "Ignore invalid items in billing", "difficulty": "Medium"}
+      {"title": "WAP to Find area of square using function with arguments and no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find diameter, circumference and area of circle using function with arguments and no return value", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Compute cart total with conditions", "difficulty": "Medium"},
-      {"title": "Apply tiered discount rules", "difficulty": "Medium"}
+      {"title": "WAP to Find area of square by has arguments and no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find d, c, a of circle by has arguments and no return value", "difficulty": "Easy"}
     ]
   },
 
   "day25": {
-    "topic": "2D Arrays",
+    "topic": "Functions - Arguments with Return & Lambda",
     "c": [
-      {"title": "Seat booking system with validation", "difficulty": "Medium"},
-      {"title": "Prevent double booking", "difficulty": "Medium"}
+      {"title": "WAP to Find smallest of 3 numbers using function with argument and return value", "difficulty": "Easy"},
+      {"title": "Find factorial of a number using function with argument and return value", "difficulty": "Easy"}
     ],
     "python": [
-      {"title": "Count available seats in grid", "difficulty": "Medium"},
-      {"title": "Track occupancy percentage", "difficulty": "Medium"}
+      {"title": "WAP to Find smallest of 3 numbers by has argument and also return value", "difficulty": "Easy"},
+      {"title": "Find factorial of a number by has argument and also return value", "difficulty": "Easy"}
     ]
   },
 
   "day26": {
-    "topic": "Frequency Analysis",
+    "topic": "Lambda Functions",
     "c": [
-      {"title": "Find most frequent element", "difficulty": "Medium"},
-      {"title": "Handle tie frequency cases", "difficulty": "Medium"}
+      {"title": "WAP to find area of Rectangle using pointer to function", "difficulty": "Medium"},
+      {"title": "WAP to find area and perimeter of a square using pointer to function", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Find top 3 frequent words", "difficulty": "Medium"},
-      {"title": "Sort by frequency manually", "difficulty": "Medium"}
+      {"title": "WAP to find area of Rectangle using lambda function", "difficulty": "Easy"},
+      {"title": "WAP to find area and perimeter of a square using lambda function", "difficulty": "Easy"}
     ]
   },
 
   "day27": {
-    "topic": "System Logic",
+    "topic": "Classes - Basics",
     "c": [
-      {"title": "Bank system with deposit and withdraw", "difficulty": "Medium"},
-      {"title": "Prevent overdraft", "difficulty": "Medium"}
+      {"title": "WAP using struct to check whether Number is even or odd with no arguments, no return value", "difficulty": "Medium"},
+      {"title": "WAP using struct to input 3 sides of a triangle and find area using Heron's formula", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Track total balance across users", "difficulty": "Medium"},
-      {"title": "Maintain transaction history", "difficulty": "Medium"}
+      {"title": "WAP to check whether Number is even or odd by No arguments, no return value using class", "difficulty": "Medium"},
+      {"title": "WAP to input 3 sides of a triangle and find area using Heron's formula using class (No arguments but returns value)", "difficulty": "Medium"}
     ]
   },
 
   "day28": {
-    "topic": "Task Management",
+    "topic": "Classes - Methods & Constructors",
     "c": [
-      {"title": "To-do list with add/remove operations", "difficulty": "Medium"},
-      {"title": "Mark tasks as completed", "difficulty": "Medium"}
+      {"title": "WAP using struct to input a number and find sum of its digits with arguments but no return value", "difficulty": "Medium"},
+      {"title": "WAP using struct to input radius and find area and volume of sphere with arguments and return value", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Sort tasks by priority", "difficulty": "Medium"},
-      {"title": "Filter completed tasks", "difficulty": "Medium"}
+      {"title": "WAP to input a number and find sum of its digits using class - Has arguments no return value", "difficulty": "Medium"},
+      {"title": "WAP to input radius and find area and volume of sphere using class - Has arguments and also return value", "difficulty": "Medium"}
     ]
   },
 
   "day29": {
-    "topic": "Allocation Logic",
+    "topic": "Constructors & Inheritance",
     "c": [
-      {"title": "Room allocation minimizing empty space", "difficulty": "Hard"},
-      {"title": "Fill partially occupied rooms first", "difficulty": "Hard"}
+      {"title": "WAP to input 2 numbers and find their HCF/GCD using struct with default initialization", "difficulty": "Medium"},
+      {"title": "WAP to input 2 numbers and find their LCM using struct with parameterized initialization", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Track room occupancy percentage", "difficulty": "Medium"},
-      {"title": "Reallocate rooms dynamically", "difficulty": "Hard"}
+      {"title": "WAP to input 2 numbers and find their HCF/GCD using default constructor", "difficulty": "Medium"},
+      {"title": "WAP to input 2 numbers and find their LCM using parameterized constructor", "difficulty": "Medium"}
     ]
   },
 
   "day30": {
-    "topic": "Boss Level",
+    "topic": "Inheritance & File Handling",
     "c": [
-      {"title": "Multi-user billing system with revenue tracking", "difficulty": "Hard"},
-      {"title": "Find most sold item efficiently", "difficulty": "Hard"}
+      {"title": "WAP to input a year and check if it is leap year or not using functions", "difficulty": "Easy"},
+      {"title": "WAP to Create a file called address.txt and store your name and address in it", "difficulty": "Medium"}
     ],
     "python": [
-      {"title": "Generate final report with stats", "difficulty": "Hard"},
-      {"title": "Simulate full transaction system", "difficulty": "Hard"}
+      {"title": "WAP to input a year and check if it is leap year or not using Single Inheritance", "difficulty": "Easy"},
+      {"title": "WAP to Create a file called address.txt and store your name and address in it", "difficulty": "Medium"}
     ]
   }
 }
