@@ -177,7 +177,7 @@ function loadQuestions(lang) {
     const today = 'day' + (parseInt(localStorage.getItem('currentDay')) || 1);
     const langKey = lang === 'C' ? 'c' : 'python';
 
-    fetch('/Logic-forge/questions.json')
+    fetch('questions.json')
         .then(res => {
             if (!res.ok) throw new Error('Failed to load questions.json: ' + res.status);
             return res.json();
