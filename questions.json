@@ -1,0 +1,361 @@
+{
+  "day1": {
+    "topic": "Basic Programs - Area",
+    "c": [
+      {"title": "WAP to find Area of Rectangle", "difficulty": "Easy"},
+      {"title": "WAP to find Area of Triangle", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to find Area of Rectangle", "difficulty": "Easy"},
+      {"title": "WAP to find Area of Triangle", "difficulty": "Easy"}
+    ]
+  },
+
+  "day2": {
+    "topic": "Basic Programs - Geometry",
+    "c": [
+      {"title": "WAP to find Area and Perimeter of Square", "difficulty": "Easy"},
+      {"title": "WAP to find Area and Volume of a Sphere", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to find Area and Perimeter of Square", "difficulty": "Easy"},
+      {"title": "WAP to find Area and Volume of a Sphere", "difficulty": "Easy"}
+    ]
+  },
+
+  "day3": {
+    "topic": "Basic Programs - Conversion & Circle",
+    "c": [
+      {"title": "WAP to convert temperature from Fahrenheit to Celsius", "difficulty": "Easy"},
+      {"title": "WAP to find Diameter, Circumference and Area of Circle", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to convert temperature from Fahrenheit to Celsius", "difficulty": "Easy"},
+      {"title": "WAP to find Diameter, Circumference and Area of Circle", "difficulty": "Easy"}
+    ]
+  },
+
+  "day4": {
+    "topic": "Basic Programs - Arithmetic",
+    "c": [
+      {"title": "WAP to find sum and average of 3 subject marks", "difficulty": "Easy"},
+      {"title": "WAP to swap 2 numbers", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to find sum and average of 3 subject marks", "difficulty": "Easy"},
+      {"title": "WAP to swap 2 numbers", "difficulty": "Easy"}
+    ]
+  },
+
+  "day5": {
+    "topic": "Basic Programs - Power & Triangle",
+    "c": [
+      {"title": "WAP to find area of Equilateral triangle", "difficulty": "Easy"},
+      {"title": "WAP to find result of first value raised to (power) second value", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to find area of Equilateral triangle", "difficulty": "Easy"},
+      {"title": "WAP to find result of first value raised to (power) second value", "difficulty": "Easy"}
+    ]
+  },
+
+  "day6": {
+    "topic": "Decision Making - Even/Odd",
+    "c": [
+      {"title": "WAP to input a number and check if it is even or odd using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input a number and check if it is even or odd using if...else", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to input a number and check if it is even or odd using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input a number and check if it is even or odd using if...else", "difficulty": "Easy"}
+    ]
+  },
+
+  "day7": {
+    "topic": "Decision Making - Largest Number",
+    "c": [
+      {"title": "WAP to input 2 numbers and find the largest using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers and find the largest using if...else", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to input 2 numbers and find the largest using simple if", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers and find the largest using if...else", "difficulty": "Easy"}
+    ]
+  },
+
+  "day8": {
+    "topic": "Decision Making - elif & Nested If",
+    "c": [
+      {"title": "WAP to enter a number between 1 to 7 and print corresponding day of week using else-if ladder", "difficulty": "Easy"},
+      {"title": "WAP to input 3 numbers and find the largest using Nested If", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to enter a number between 1 to 7 and print corresponding day of week using elif", "difficulty": "Easy"},
+      {"title": "WAP to input 3 numbers and find the largest using Nested If", "difficulty": "Easy"}
+    ]
+  },
+
+  "day9": {
+    "topic": "Decision Making - Advanced",
+    "c": [
+      {"title": "WAP to input 3 numbers and find the largest using else-if", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers. Perform addition if first number > second, otherwise perform subtraction", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to input 3 numbers and find the largest using elif", "difficulty": "Easy"},
+      {"title": "WAP to input 2 numbers. Perform addition if first number > second, otherwise perform subtraction", "difficulty": "Easy"}
+    ]
+  },
+
+  "day10": {
+    "topic": "Decision Making - Ratio & Triangle",
+    "c": [
+      {"title": "WAP to input values of a,b,c,d. Find the ratio of (a+b) to (c-d) if and only if (c-d) not equal to zero", "difficulty": "Easy"},
+      {"title": "Input 3 sides of a triangle. Check if triangle is formed or not. If yes, check if it is acute, right or obtuse angled triangle", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to input values of a,b,c,d. Find the ratio of (a+b) to (c-d) if and only if (c-d) not equal to zero", "difficulty": "Easy"},
+      {"title": "Input 3 sides of a triangle. Check if triangle is formed or not. If yes, check if it is acute, right or obtuse angled triangle", "difficulty": "Medium"}
+    ]
+  },
+
+  "day11": {
+    "topic": "Looping - While Loop Basics",
+    "c": [
+      {"title": "WAP to print numbers from 10 to 1 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print even numbers between 1 to 20 using while loop", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to print numbers from 10 to 1 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print even numbers between 1 to 20 using while loop", "difficulty": "Easy"}
+    ]
+  },
+
+  "day12": {
+    "topic": "Looping - While Loop Patterns",
+    "c": [
+      {"title": "WAP to print odd numbers between 30 to 50 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print numbers between 1 to 100 divisible by 3 and 5 using while loop", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to print odd numbers between 30 to 50 using while loop", "difficulty": "Easy"},
+      {"title": "WAP to print numbers between 1 to 100 divisible by 3 and 5 using while loop", "difficulty": "Easy"}
+    ]
+  },
+
+  "day13": {
+    "topic": "Looping - While Loop Range & Digits",
+    "c": [
+      {"title": "WAP to print numbers between a given range using while loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find sum of its digits using while loop", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to print numbers between a given range using while loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find sum of its digits using while loop", "difficulty": "Easy"}
+    ]
+  },
+
+  "day14": {
+    "topic": "Looping - Reverse & Palindrome",
+    "c": [
+      {"title": "WAP to input a number and find its reverse using while loop", "difficulty": "Easy"},
+      {"title": "WAP to check whether the entered number is palindrome or not", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to input a number and find its reverse using while loop", "difficulty": "Easy"},
+      {"title": "WAP to check whether the entered number is palindrome or not", "difficulty": "Easy"}
+    ]
+  },
+
+  "day15": {
+    "topic": "Looping - Armstrong & Prime",
+    "c": [
+      {"title": "WAP to check whether the entered number is Armstrong or not", "difficulty": "Easy"},
+      {"title": "WAP to check whether an entered number is prime number or not", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to check whether the entered number is Armstrong or not", "difficulty": "Easy"},
+      {"title": "WAP to check whether an entered number is prime number or not", "difficulty": "Easy"}
+    ]
+  },
+
+  "day16": {
+    "topic": "For Loop - Basics",
+    "c": [
+      {"title": "WAP to print all Armstrong numbers between 100 to 1000 using for loop", "difficulty": "Medium"},
+      {"title": "WAP to print numbers from 10 to 1 using for loop", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to print all Armstrong numbers between 100 to 1000 using for loop", "difficulty": "Medium"},
+      {"title": "WAP to print numbers from 10 to 1 using for loop", "difficulty": "Easy"}
+    ]
+  },
+
+  "day17": {
+    "topic": "For Loop - Even, Odd & Divisible",
+    "c": [
+      {"title": "WAP to print even numbers between 20 to 40 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to print odd numbers between 50 to 70 using for loop", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to print even numbers between 20 to 40 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to print odd numbers between 50 to 70 using for loop", "difficulty": "Easy"}
+    ]
+  },
+
+  "day18": {
+    "topic": "For Loop - Divisibility & Factorial",
+    "c": [
+      {"title": "WAP to print numbers between 1 to 500 divisible by 3, 5 and 7 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to find factorial of a number using for loop", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to print numbers between 1 to 500 divisible by 3, 5 and 7 using for loop", "difficulty": "Easy"},
+      {"title": "WAP to find factorial of a number using for loop", "difficulty": "Easy"}
+    ]
+  },
+
+  "day19": {
+    "topic": "For Loop - Factors",
+    "c": [
+      {"title": "WAP to input a number and find its factors using for loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find its factors and also count them using for loop", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to input a number and find its factors using for loop", "difficulty": "Easy"},
+      {"title": "WAP to input a number and find its factors and also count them using for loop", "difficulty": "Easy"}
+    ]
+  },
+
+  "day20": {
+    "topic": "Nested Loops - Patterns",
+    "c": [
+      {"title": "WAP to display star pattern: 1 row has 1 star, each next row adds one more star (6 rows)", "difficulty": "Medium"},
+      {"title": "WAP to display number pattern: 1 / 1 2 / 1 2 3 / 1 2 3 4", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to display star pattern: 1 row has 1 star, each next row adds one more star (6 rows)", "difficulty": "Medium"},
+      {"title": "WAP to display number pattern: 1 / 1 2 / 1 2 3 / 1 2 3 4", "difficulty": "Medium"}
+    ]
+  },
+
+  "day21": {
+    "topic": "Nested Loops - Advanced Patterns",
+    "c": [
+      {"title": "WAP to display repeated digit pattern: 1 / 2 2 / 3 3 3 / 4 4 4 4 / 5 5 5 5 5", "difficulty": "Medium"},
+      {"title": "WAP to display sequential number pattern: 1 / 2 3 / 4 5 6 / 7 8 9 10 / ...", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to display repeated digit pattern: 1 / 2 2 / 3 3 3 / 4 4 4 4 / 5 5 5 5 5", "difficulty": "Medium"},
+      {"title": "WAP to display sequential number pattern: 1 / 2 3 / 4 5 6 / 7 8 9 10 / ...", "difficulty": "Medium"}
+    ]
+  },
+
+  "day22": {
+    "topic": "Functions - No Argument No Return",
+    "c": [
+      {"title": "WAP to Find area of rectangle using function with no argument, no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find area of Triangle using function with no argument but return value", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to Find area of rectangle by no argument, no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find area of Triangle by no argument but return value", "difficulty": "Easy"}
+    ]
+  },
+
+  "day23": {
+    "topic": "Functions - With Arguments",
+    "c": [
+      {"title": "WAP to Find area and volume of sphere using function with no argument but return value", "difficulty": "Easy"},
+      {"title": "WAP to Find Largest of 2 numbers using function with no argument but return value", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to Find area and volume of sphere by no argument but return value", "difficulty": "Easy"},
+      {"title": "WAP to Find Largest of 2 numbers by no argument but return value", "difficulty": "Easy"}
+    ]
+  },
+
+  "day24": {
+    "topic": "Functions - Has Arguments",
+    "c": [
+      {"title": "WAP to Find area of square using function with arguments and no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find diameter, circumference and area of circle using function with arguments and no return value", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to Find area of square by has arguments and no return value", "difficulty": "Easy"},
+      {"title": "WAP to Find d, c, a of circle by has arguments and no return value", "difficulty": "Easy"}
+    ]
+  },
+
+  "day25": {
+    "topic": "Functions - Arguments with Return & Lambda",
+    "c": [
+      {"title": "WAP to Find smallest of 3 numbers using function with argument and return value", "difficulty": "Easy"},
+      {"title": "Find factorial of a number using function with argument and return value", "difficulty": "Easy"}
+    ],
+    "python": [
+      {"title": "WAP to Find smallest of 3 numbers by has argument and also return value", "difficulty": "Easy"},
+      {"title": "Find factorial of a number by has argument and also return value", "difficulty": "Easy"}
+    ]
+  },
+
+  "day26": {
+    "topic": "Lambda Functions",
+    "c": [
+      {"title": "WAP to find area of Rectangle using pointer to function", "difficulty": "Medium"},
+      {"title": "WAP to find area and perimeter of a square using pointer to function", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to find area of Rectangle using lambda function", "difficulty": "Easy"},
+      {"title": "WAP to find area and perimeter of a square using lambda function", "difficulty": "Easy"}
+    ]
+  },
+
+  "day27": {
+    "topic": "Classes - Basics",
+    "c": [
+      {"title": "WAP using struct to check whether Number is even or odd with no arguments, no return value", "difficulty": "Medium"},
+      {"title": "WAP using struct to input 3 sides of a triangle and find area using Heron's formula", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to check whether Number is even or odd by No arguments, no return value using class", "difficulty": "Medium"},
+      {"title": "WAP to input 3 sides of a triangle and find area using Heron's formula using class (No arguments but returns value)", "difficulty": "Medium"}
+    ]
+  },
+
+  "day28": {
+    "topic": "Classes - Methods & Constructors",
+    "c": [
+      {"title": "WAP using struct to input a number and find sum of its digits with arguments but no return value", "difficulty": "Medium"},
+      {"title": "WAP using struct to input radius and find area and volume of sphere with arguments and return value", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to input a number and find sum of its digits using class - Has arguments no return value", "difficulty": "Medium"},
+      {"title": "WAP to input radius and find area and volume of sphere using class - Has arguments and also return value", "difficulty": "Medium"}
+    ]
+  },
+
+  "day29": {
+    "topic": "Constructors & Inheritance",
+    "c": [
+      {"title": "WAP to input 2 numbers and find their HCF/GCD using struct with default initialization", "difficulty": "Medium"},
+      {"title": "WAP to input 2 numbers and find their LCM using struct with parameterized initialization", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to input 2 numbers and find their HCF/GCD using default constructor", "difficulty": "Medium"},
+      {"title": "WAP to input 2 numbers and find their LCM using parameterized constructor", "difficulty": "Medium"}
+    ]
+  },
+
+  "day30": {
+    "topic": "Inheritance & File Handling",
+    "c": [
+      {"title": "WAP to input a year and check if it is leap year or not using functions", "difficulty": "Easy"},
+      {"title": "WAP to Create a file called address.txt and store your name and address in it", "difficulty": "Medium"}
+    ],
+    "python": [
+      {"title": "WAP to input a year and check if it is leap year or not using Single Inheritance", "difficulty": "Easy"},
+      {"title": "WAP to Create a file called address.txt and store your name and address in it", "difficulty": "Medium"}
+    ]
+  }
+}
